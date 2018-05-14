@@ -1,0 +1,244 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [..\..\out\lindiy.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image ..\..\out\lindiy.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 481]: Last Updated: Mon May 14 23:06:55 2018
+<BR><P>
+<H3>Maximum Stack Usage =         16 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+SystemInit &rArr; SetSysClock
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[12]">ADC1_COMP_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[12]">ADC1_COMP_IRQHandler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[26]">main</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[26]">main</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[0]">Reset_Handler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from stm32f0xx_it.o(i.NMI_Handler) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from stm32f0xx_it.o(i.HardFault_Handler) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from stm32f0xx_it.o(i.SVC_Handler) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from stm32f0xx_it.o(i.PendSV_Handler) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from stm32f0xx_it.o(i.SysTick_Handler) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[6]">WWDG_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[7]">PVD_VDDIO2_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[8]">RTC_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[9]">FLASH_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[a]">RCC_CRS_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[b]">EXTI0_1_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[c]">EXTI2_3_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[d]">EXTI4_15_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[e]">TSC_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[f]">DMA1_Channel1_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[10]">DMA1_Channel2_3_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[11]">DMA1_Channel4_5_6_7_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[12]">ADC1_COMP_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[13]">TIM1_BRK_UP_TRG_COM_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[14]">TIM1_CC_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[15]">TIM2_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[16]">TIM3_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[17]">TIM6_DAC_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[18]">TIM7_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[19]">TIM14_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1a]">TIM15_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1b]">TIM16_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1c]">TIM17_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1d]">I2C1_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1e]">I2C2_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[1f]">SPI1_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[20]">SPI2_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[21]">USART1_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[22]">USART2_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[23]">USART3_4_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[24]">CEC_CAN_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[25]">USB_IRQHandler</a> from startup_stm32f072.o(.text) referenced from startup_stm32f072.o(RESET)
+ <LI><a href="#[26]">main</a> from main.o(i.main) referenced from entry7.o(.ARM.Collect$$$$00000007)
+ <LI><a href="#[27]">SystemInit</a> from system_stm32f0xx.o(i.SystemInit) referenced from startup_stm32f072.o(.text)
+ <LI><a href="#[28]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f072.o(.text)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[28]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(.text)
+</UL>
+<P><STRONG><a name="[2d]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[29]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[2b]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[2e]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>ADC1_COMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_COMP_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_COMP_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>CEC_CAN_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>DMA1_Channel2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>DMA1_Channel4_5_6_7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>EXTI0_1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>EXTI2_3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>EXTI4_15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>PVD_VDDIO2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>RCC_CRS_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>TIM14_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>TIM15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>TIM16_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>TIM17_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>TIM1_BRK_UP_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>TIM6_DAC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>TIM7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>TSC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>USART3_4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>USB_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f072.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[2f]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f0xx_it.o(i.HardFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f0xx_it.o(i.NMI_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f0xx_it.o(i.PendSV_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f0xx_it.o(i.SVC_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f0xx_it.o(i.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>SystemInit</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, system_stm32f0xx.o(i.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SystemInit &rArr; SetSysClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f072.o(.text)
+</UL>
+<P><STRONG><a name="[30]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[31]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[32]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[26]"></a>main</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Calls]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+<BR>[Called By]<UL><LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[2c]"></a>SetSysClock</STRONG> (Thumb, 120 bytes, Stack size 8 bytes, system_stm32f0xx.o(i.SetSysClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SetSysClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
