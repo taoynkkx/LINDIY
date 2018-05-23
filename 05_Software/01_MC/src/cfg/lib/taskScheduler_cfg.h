@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    taskScheduler_cfg.h.txt
+  * @file    taskScheduler_cfg.h
   * @author  taoynkkx@163.com
   * @version V0.0
   * @date    2018.5.24

@@ -345,7 +345,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_STDPERIPH_DRIVER, STM32F072</Define>
               <Undefine></Undefine>
-              <IncludePath>..\KEIL4;..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\CMSIS\Include;..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\CMSIS\Device\ST\STM32F0xx\Include;..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc</IncludePath>
+              <IncludePath>..\KEIL4;..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\CMSIS\Include;..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\CMSIS\Device\ST\STM32F0xx\Include;..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc;..\..\src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -515,6 +515,16 @@
               <FileName>stm32f0xx_wwdg.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\src\lib\STM32F0_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_wwdg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>lib/taskScheduler</GroupName>
+          <Files>
+            <File>
+              <FileName>taskScheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\lib\taskScheduler\taskScheduler.c</FilePath>
             </File>
           </Files>
         </Group>
